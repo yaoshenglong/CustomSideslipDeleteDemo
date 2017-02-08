@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0476831E08F7AA00A96BEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0476821E08F7AA00A96BEA /* main.m */; };
+		DF0476861E08F7AA00A96BEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0476851E08F7AA00A96BEA /* AppDelegate.m */; };
+		DF0476891E08F7AA00A96BEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0476881E08F7AA00A96BEA /* ViewController.m */; };
+		DF04768C1E08F7AA00A96BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF04768A1E08F7AA00A96BEA /* Main.storyboard */; };
+		DF04768E1E08F7AA00A96BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF04768D1E08F7AA00A96BEA /* Assets.xcassets */; };
+		DF0476911E08F7AA00A96BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF04768F1E08F7AA00A96BEA /* LaunchScreen.storyboard */; };
+		DF04769C1E08F7AA00A96BEA /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF04769B1E08F7AA00A96BEA /* _________Tests.m */; };
+		DF0476A71E08F7AA00A96BEA /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0476A61E08F7AA00A96BEA /* _________UITests.m */; };
+		DF0476B71E08F8B500A96BEA /* JDMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0476B51E08F8B500A96BEA /* JDMessageCell.m */; };
+		DF0476B81E08F8B500A96BEA /* JDMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0476B61E08F8B500A96BEA /* JDMessageCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF0476981E08F7AA00A96BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0476761E08F7AA00A96BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF04767D1E08F7AA00A96BEA;
+			remoteInfo = "仿京东消息侧滑删除";
+		};
+		DF0476A31E08F7AA00A96BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0476761E08F7AA00A96BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF04767D1E08F7AA00A96BEA;
+			remoteInfo = "仿京东消息侧滑删除";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF04767E1E08F7AA00A96BEA /* 仿京东消息侧滑删除.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿京东消息侧滑删除.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0476821E08F7AA00A96BEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF0476841E08F7AA00A96BEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF0476851E08F7AA00A96BEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF0476871E08F7AA00A96BEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF0476881E08F7AA00A96BEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF04768B1E08F7AA00A96BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF04768D1E08F7AA00A96BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF0476901E08F7AA00A96BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF0476921E08F7AA00A96BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0476971E08F7AA00A96BEA /* 仿京东消息侧滑删除Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿京东消息侧滑删除Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF04769B1E08F7AA00A96BEA /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		DF04769D1E08F7AA00A96BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0476A21E08F7AA00A96BEA /* 仿京东消息侧滑删除UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿京东消息侧滑删除UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0476A61E08F7AA00A96BEA /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		DF0476A81E08F7AA00A96BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0476B41E08F8B500A96BEA /* JDMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMessageCell.h; sourceTree = "<group>"; };
+		DF0476B51E08F8B500A96BEA /* JDMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMessageCell.m; sourceTree = "<group>"; };
+		DF0476B61E08F8B500A96BEA /* JDMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDMessageCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF04767B1E08F7AA00A96BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0476941E08F7AA00A96BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF04769F1E08F7AA00A96BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0476751E08F7AA00A96BEA = {
+			isa = PBXGroup;
+			children = (
+				DF0476801E08F7AA00A96BEA /* 仿京东消息侧滑删除 */,
+				DF04769A1E08F7AA00A96BEA /* 仿京东消息侧滑删除Tests */,
+				DF0476A51E08F7AA00A96BEA /* 仿京东消息侧滑删除UITests */,
+				DF04767F1E08F7AA00A96BEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF04767F1E08F7AA00A96BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF04767E1E08F7AA00A96BEA /* 仿京东消息侧滑删除.app */,
+				DF0476971E08F7AA00A96BEA /* 仿京东消息侧滑删除Tests.xctest */,
+				DF0476A21E08F7AA00A96BEA /* 仿京东消息侧滑删除UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF0476801E08F7AA00A96BEA /* 仿京东消息侧滑删除 */ = {
+			isa = PBXGroup;
+			children = (
+				DF0476841E08F7AA00A96BEA /* AppDelegate.h */,
+				DF0476851E08F7AA00A96BEA /* AppDelegate.m */,
+				DF0476871E08F7AA00A96BEA /* ViewController.h */,
+				DF0476881E08F7AA00A96BEA /* ViewController.m */,
+				DF0476B41E08F8B500A96BEA /* JDMessageCell.h */,
+				DF0476B51E08F8B500A96BEA /* JDMessageCell.m */,
+				DF0476B61E08F8B500A96BEA /* JDMessageCell.xib */,
+				DF0476811E08F7AA00A96BEA /* Supporting Files */,
+			);
+			path = "仿京东消息侧滑删除";
+			sourceTree = "<group>";
+		};
+		DF0476811E08F7AA00A96BEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF04768A1E08F7AA00A96BEA /* Main.storyboard */,
+				DF04768D1E08F7AA00A96BEA /* Assets.xcassets */,
+				DF04768F1E08F7AA00A96BEA /* LaunchScreen.storyboard */,
+				DF0476921E08F7AA00A96BEA /* Info.plist */,
+				DF0476821E08F7AA00A96BEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF04769A1E08F7AA00A96BEA /* 仿京东消息侧滑删除Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF04769B1E08F7AA00A96BEA /* _________Tests.m */,
+				DF04769D1E08F7AA00A96BEA /* Info.plist */,
+			);
+			path = "仿京东消息侧滑删除Tests";
+			sourceTree = "<group>";
+		};
+		DF0476A51E08F7AA00A96BEA /* 仿京东消息侧滑删除UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF0476A61E08F7AA00A96BEA /* _________UITests.m */,
+				DF0476A81E08F7AA00A96BEA /* Info.plist */,
+			);
+			path = "仿京东消息侧滑删除UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF04767D1E08F7AA00A96BEA /* 仿京东消息侧滑删除 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0476AB1E08F7AA00A96BEA /* Build configuration list for PBXNativeTarget "仿京东消息侧滑删除" */;
+			buildPhases = (
+				DF04767A1E08F7AA00A96BEA /* Sources */,
+				DF04767B1E08F7AA00A96BEA /* Frameworks */,
+				DF04767C1E08F7AA00A96BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿京东消息侧滑删除";
+			productName = "仿京东消息侧滑删除";
+			productReference = DF04767E1E08F7AA00A96BEA /* 仿京东消息侧滑删除.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF0476961E08F7AA00A96BEA /* 仿京东消息侧滑删除Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0476AE1E08F7AA00A96BEA /* Build configuration list for PBXNativeTarget "仿京东消息侧滑删除Tests" */;
+			buildPhases = (
+				DF0476931E08F7AA00A96BEA /* Sources */,
+				DF0476941E08F7AA00A96BEA /* Frameworks */,
+				DF0476951E08F7AA00A96BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF0476991E08F7AA00A96BEA /* PBXTargetDependency */,
+			);
+			name = "仿京东消息侧滑删除Tests";
+			productName = "仿京东消息侧滑删除Tests";
+			productReference = DF0476971E08F7AA00A96BEA /* 仿京东消息侧滑删除Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF0476A11E08F7AA00A96BEA /* 仿京东消息侧滑删除UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0476B11E08F7AA00A96BEA /* Build configuration list for PBXNativeTarget "仿京东消息侧滑删除UITests" */;
+			buildPhases = (
+				DF04769E1E08F7AA00A96BEA /* Sources */,
+				DF04769F1E08F7AA00A96BEA /* Frameworks */,
+				DF0476A01E08F7AA00A96BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF0476A41E08F7AA00A96BEA /* PBXTargetDependency */,
+			);
+			name = "仿京东消息侧滑删除UITests";
+			productName = "仿京东消息侧滑删除UITests";
+			productReference = DF0476A21E08F7AA00A96BEA /* 仿京东消息侧滑删除UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0476761E08F7AA00A96BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "姚胜龙";
+				TargetAttributes = {
+					DF04767D1E08F7AA00A96BEA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8JVDPU3L6W;
+						ProvisioningStyle = Automatic;
+					};
+					DF0476961E08F7AA00A96BEA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8JVDPU3L6W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF04767D1E08F7AA00A96BEA;
+					};
+					DF0476A11E08F7AA00A96BEA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8JVDPU3L6W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF04767D1E08F7AA00A96BEA;
+					};
+				};
+			};
+			buildConfigurationList = DF0476791E08F7AA00A96BEA /* Build configuration list for PBXProject "仿京东消息侧滑删除" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF0476751E08F7AA00A96BEA;
+			productRefGroup = DF04767F1E08F7AA00A96BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF04767D1E08F7AA00A96BEA /* 仿京东消息侧滑删除 */,
+				DF0476961E08F7AA00A96BEA /* 仿京东消息侧滑删除Tests */,
+				DF0476A11E08F7AA00A96BEA /* 仿京东消息侧滑删除UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF04767C1E08F7AA00A96BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0476911E08F7AA00A96BEA /* LaunchScreen.storyboard in Resources */,
+				DF0476B81E08F8B500A96BEA /* JDMessageCell.xib in Resources */,
+				DF04768E1E08F7AA00A96BEA /* Assets.xcassets in Resources */,
+				DF04768C1E08F7AA00A96BEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0476951E08F7AA00A96BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0476A01E08F7AA00A96BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF04767A1E08F7AA00A96BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0476891E08F7AA00A96BEA /* ViewController.m in Sources */,
+				DF0476B71E08F8B500A96BEA /* JDMessageCell.m in Sources */,
+				DF0476861E08F7AA00A96BEA /* AppDelegate.m in Sources */,
+				DF0476831E08F7AA00A96BEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0476931E08F7AA00A96BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF04769C1E08F7AA00A96BEA /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF04769E1E08F7AA00A96BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0476A71E08F7AA00A96BEA /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF0476991E08F7AA00A96BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF04767D1E08F7AA00A96BEA /* 仿京东消息侧滑删除 */;
+			targetProxy = DF0476981E08F7AA00A96BEA /* PBXContainerItemProxy */;
+		};
+		DF0476A41E08F7AA00A96BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF04767D1E08F7AA00A96BEA /* 仿京东消息侧滑删除 */;
+			targetProxy = DF0476A31E08F7AA00A96BEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF04768A1E08F7AA00A96BEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF04768B1E08F7AA00A96BEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF04768F1E08F7AA00A96BEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0476901E08F7AA00A96BEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF0476A91E08F7AA00A96BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF0476AA1E08F7AA00A96BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0476AC1E08F7AA00A96BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JVDPU3L6W;
+				INFOPLIST_FILE = "仿京东消息侧滑删除/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.95vintage.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF0476AD1E08F7AA00A96BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JVDPU3L6W;
+				INFOPLIST_FILE = "仿京东消息侧滑删除/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.95vintage.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF0476AF1E08F7AA00A96BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8JVDPU3L6W;
+				INFOPLIST_FILE = "仿京东消息侧滑删除Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.95vintage.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿京东消息侧滑删除.app/仿京东消息侧滑删除";
+			};
+			name = Debug;
+		};
+		DF0476B01E08F7AA00A96BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8JVDPU3L6W;
+				INFOPLIST_FILE = "仿京东消息侧滑删除Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.95vintage.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿京东消息侧滑删除.app/仿京东消息侧滑删除";
+			};
+			name = Release;
+		};
+		DF0476B21E08F7AA00A96BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8JVDPU3L6W;
+				INFOPLIST_FILE = "仿京东消息侧滑删除UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.95vintage.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿京东消息侧滑删除";
+			};
+			name = Debug;
+		};
+		DF0476B31E08F7AA00A96BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8JVDPU3L6W;
+				INFOPLIST_FILE = "仿京东消息侧滑删除UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.95vintage.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿京东消息侧滑删除";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0476791E08F7AA00A96BEA /* Build configuration list for PBXProject "仿京东消息侧滑删除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0476A91E08F7AA00A96BEA /* Debug */,
+				DF0476AA1E08F7AA00A96BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0476AB1E08F7AA00A96BEA /* Build configuration list for PBXNativeTarget "仿京东消息侧滑删除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0476AC1E08F7AA00A96BEA /* Debug */,
+				DF0476AD1E08F7AA00A96BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF0476AE1E08F7AA00A96BEA /* Build configuration list for PBXNativeTarget "仿京东消息侧滑删除Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0476AF1E08F7AA00A96BEA /* Debug */,
+				DF0476B01E08F7AA00A96BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF0476B11E08F7AA00A96BEA /* Build configuration list for PBXNativeTarget "仿京东消息侧滑删除UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0476B21E08F7AA00A96BEA /* Debug */,
+				DF0476B31E08F7AA00A96BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF0476761E08F7AA00A96BEA /* Project object */;
+}
